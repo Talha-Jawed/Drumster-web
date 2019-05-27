@@ -1,0 +1,642 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.termAndCondition{
+  display: flex;
+  background-color: #222222;
+  height: 500px;
+  width: 100%
+}
+
+.titleView{
+  display: flex;
+  margin-top: 300px;
+  width: 90%
+}
+
+.TitleText{
+  font-size: 20px;
+  color : #6e6e6e;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.termAndConditionContent{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 70px
+}
+
+.leftSide{
+  width: 15%
+}
+
+.rightSide{
+  width: 10%
+}
+
+.table-content{
+  width: 25%;
+}
+
+.content-view{
+  width: 50%
+}
+.content-margin{
+  margin-bottom: 40px
+
+}
+
+.titleTableContent{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.listItem{
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none
+}
+
+.listContent-title{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.listContent-title2{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.listContent-text{
+  color : #6e6e6e;
+  margin-bottom: 40px
+}
+
+@media(max-width: 800px){
+  .leftSide{
+    width: 10%
+  }
+  
+  .rightSide{
+    width: 10%
+  }
+  .termAndConditionContent{
+    flex-direction: column;
+    display: flex;
+    align-items: center
+  }
+  .table-content{
+    width: 80%;
+    
+  }
+  
+  .content-view{
+    width: 80%
+  }
+
+  .QAtable{
+    padding-bottom: 50px
+  }
+}
+
+.footer{
+  width: 100%;
+  background-color: #222222;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 10px;
+  padding-bottom: 10px */
+}
+
+.footer-text{
+  color: #d6d3d3;
+  font-size: 12px
+}
+
+.QA{
+  width: 100%;
+  background-color: #222222;
+}
+
+.QA-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.QA-headerText{
+  color: #f7f4f4;
+  font-size: 22px;
+  font: 900
+}
+
+.QA-title{
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row
+}
+
+.title-QA{
+  width: 90%;
+  padding-bottom: 60px;
+  padding-top: 30px;
+/* background-color: #6e6e6e */
+}
+
+.QA-heading{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.QA-titleText{
+  font-size: 18px;
+  color : #6e6e6e;
+}
+
+.listItem-text{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.listItemQA{
+  border-top: 1px solid black;
+  padding: 16px
+}
+
+.QA-listContent{
+  padding-bottom: 50px
+}
+
+.drumster-header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.drumster-logo{
+  width: 15%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 10px
+}
+
+.drumster-menuIcon{
+  width: 5%;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px
+ }
+
+.drumster-title{
+  width: 30%;
+}
+
+.drumster-centerSpace{
+  width: 10%
+}
+
+.drumster-halfImg{
+  width: 20%;
+}
+
+.drumster-mobileImg{
+  width: 20%;
+  margin-top: 40px
+}
+
+.drumster-image{
+  width: 100%;
+  display: flex;
+}
+
+.drumster-heading{
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 100px
+}
+
+.drumster-text{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0
+}
+
+.btns{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btnApp{
+  color: white;
+  background-color: #282c34;
+  width: 45%;
+  height: 50px;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 6px;
+  
+}
+
+.btnIconGoogle{
+  display: flex;
+  height: 24px ;
+  width: 24px;
+}
+
+.btnStyle{
+  padding-right: 8px
+
+}
+
+.drums-question{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px
+}
+
+.drums-space{
+  width: 60%;
+}
+
+.drums-content{
+  width: 30%;
+}
+
+.druns-rightSpace{
+  width: 10%
+}
+
+.drums-text{
+  font-size: 16px;
+  color: #6e6e6e;
+  padding-bottom: 20px
+}
+
+.qusBtn{
+  color: black;
+  background-color: white;
+  width: 70%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 600;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px
+}
+
+.drums2{
+  margin-top: 60px
+}
+
+.drumster-mobileImg2{
+  width: 20%;
+  padding-top: 120px
+}
+
+.image2-rightSpace{
+  width: 25%
+}
+
+.drumster-icon{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-bottom: 200px
+}
+
+.drumster-iconImage{
+  width: 20%;
+}
+
+.drumster-headingIcon{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  /* font-family:  'Gill Sans MT', 'Trebuchet MS' */
+}
+
+.marginTop{
+  margin-top: 40px
+}
+
+.btns-bottom{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  
+}
+
+@media(max-width: 1000px){
+  .drumster-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+  .drumster-logo{
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-left: 10px;
+    width: 30%
+  }
+  .drumster-menuIcon{
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding-right: 10px;
+    padding-top: 30px
+   }
+  
+  .drumster-title{
+    width: 80%;
+  }
+  
+  .drumster-centerSpace{
+    width: 10%
+  }
+  
+  .drumster-halfImg{
+    width: 80%;
+  }
+  
+  .drumster-mobileImg{
+    width: 80%;
+    margin-top: 0px
+  }
+
+  .drumster-heading{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    }
+  .drumster-image{
+    width: 100%;
+  }
+  
+  .drumster-text{
+    font-size: 18px
+  }
+
+  .btnApp{
+    color: white;
+    background-color: #282c34;
+    width: 45%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 10px
+  }
+
+  .drums-question{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .drums-content{
+    width: 80%;
+  }
+  
+  .drums-text{
+    font-size: 16px;
+    color: #6e6e6e
+  }
+  
+  .qusBtn{
+    color: black;
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+  }
+  
+  .drumster-mobileImg2{
+    width: 80%;
+    padding: 10px
+  }
+
+  .drumster-icon{
+    margin-top: 80px;
+    margin-bottom: 80px
+  }
+
+  .drumster-iconImage{
+    width: 40%;
+  }
+  
+  .drumster-headingIcon{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+  .btns-bottom{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+  }
+}
+
+.header{
+  width: 100%;
+  background-color: #222222;
+}
+
+.header-content{
+  height:  100px  ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+}
+
+.headerLogo{
+  padding-left: 14px
+}
+
+.headerMenu{
+  padding-right: 14px
+}
+
+.textUnderline{
+  text-decoration: underline
+}
+
+.menuu{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #6e6e6e
+}
+
+.menuLeft{
+  display: flex;
+  width: 65%;
+  background-color: #6e6e6e
+}
+
+.menuRight{
+  width: 35%;
+}
+
+.menuRightWhite{
+  background-color:white;
+  padding-bottom: 40px
+}
+
+.menuClose{
+  display: flex;
+  flex-direction: row
+
+}
+.clsbtn{
+  width: 90%
+}
+
+.closeImg{
+  height: 16px;
+  width: 16px;
+  margin-top: 20px
+}
+
+.menuTitleDiv{
+  margin-top: 120px;
+  margin-left: 40px;
+}
+
+.menuTitle{
+  font-size: 30px;
+  font-weight: bold
+}
+
+.menu-content{
+  padding-top: 40px;
+  background-color: #222222
+}
+
+.menu-li{
+  margin-left: 40px
+}
+
+.menu-list{
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+.social-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end
+}
+
+.iconsMenu{
+  padding: 20px
+}
+
+@media(max-width: 800px){
+  .menu-list{
+    font-size: 16px;
+    font-weight: 400;
+    color: white
+  }
+
+  .menuTitle{
+    font-size: 24px;
+    font-weight: bold
+  }
+
+  .menuLeft{
+    display: flex;
+    width: 0%;
+    background-color: #6e6e6e
+  }
+
+  .menuRight{
+    width: 100%;
+  }
+  
+  .footer-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px
+  }
+  .iconsMenu{
+    padding: 20px
+  }
+  .footer-text{
+    color: #d6d3d3;
+    font-size: 12px
+  }
+}
